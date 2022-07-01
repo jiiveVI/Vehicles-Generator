@@ -1,6 +1,6 @@
 import random
 import csv
-
+#testGit
 Autobus = {'Iveco Bus':{'modèle':['Urbanway', 'Crealis', 'Crossway']}, 'man' :{'modèle': ['Lion\'s City', 'Lion\'s Classic', 'Lion\'s City Hybrid']}, 'Heuliez Bus' :{'modèle': ['GX 137', 'GX 337', 'GX Linium']}, 'Mercedes-Benz':{'modèle': ['Citaro C2', 'Citaro K', 'Citaro L']}}
 Voiture = {'Bmw' : {'modèle':['X3','320','530','i8']}, 'Renault' : {'modèle':['Twingo','Clio','Scenic','Mégane']},'Toyota' : {'modèle':['Yaris','Celica','C-HR','Corolla']},'Peugeot' : {'modèle':['206','5008','3008','405']}, 'Mercedes-Benz' : {'modèle':['Classe A','Classe CLS','Classe SLK','Classe B']}, 'Audi' : {'modèle':['RS6','A8','Q5','e-tron']}}
 Utilitaires = {'Renault' : {'modèle':['Trafic','Kangoo','Express']},'Citroën' : {'modèle':['Jumpy','Jumper','Berlingo']},'Volkswagen' : {'modèle':['Caddy','Crafter','Transporter',]}, 'Opel' : {'modèle':['Combo','Vivaro','Movano']}}
