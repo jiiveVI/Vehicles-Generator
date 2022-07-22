@@ -4,12 +4,27 @@ import csv
 Autobus = {'Iveco Bus':{'modèle':['Urbanway', 'Crealis', 'Crossway']}, 'man' :{'modèle': ['Lion\'s City', 'Lion\'s Classic', 'Lion\'s City Hybrid']}, 'Heuliez Bus' :{'modèle': ['GX 137', 'GX 337', 'GX Linium']}, 'Mercedes-Benz':{'modèle': ['Citaro C2', 'Citaro K', 'Citaro L']}}
 Voiture = {'Bmw' : {'modèle':['X3','320','530','i8']}, 'Renault' : {'modèle':['Twingo','Clio','Scenic','Mégane']},'Toyota' : {'modèle':['Yaris','Celica','C-HR','Corolla']},'Peugeot' : {'modèle':['206','5008','3008','405']}, 'Mercedes-Benz' : {'modèle':['Classe A','Classe CLS','Classe SLK','Classe B']}, 'Audi' : {'modèle':['RS6','A8','Q5','e-tron']}}
 Utilitaires = {'Renault' : {'modèle':['Trafic','Kangoo','Express']},'Citroën' : {'modèle':['Jumpy','Jumper','Berlingo']},'Volkswagen' : {'modèle':['Caddy','Crafter','Transporter',]}, 'Opel' : {'modèle':['Combo','Vivaro','Movano']}}
+car_type = {}
+choix_disponibles = ['Autobus', 'Voiture', 'Livraisons']
+
+
+
 
 def createVehicle():
-    car_type = random.choice([Autobus, Voiture, Utilitaires])
+    sel_car_type = random.choices(choix_disponibles, weights=[1,10,3], k=1)
+    if sel_car_type == ['Autobus']:
+        car_type = Autobus
+    elif sel_car_type == ['Voiture']:
+        car_type = Voiture
+    elif sel_car_type == ['Livraisons']:
+        car_type = Utilitaires
     marque = random.choice(list(car_type.keys()))
     modele = random.choice(car_type.get(marque).get('modèle'))
     return marque, modele
+
+
+
+
 
 class vehicles():
     def __init__(self):
@@ -43,12 +58,14 @@ def recursion(a):
         truc.objet += [createVehicle() + createLicencePlate()]
     return truc
 
-bibi = recursion(10)
-print(bibi.objet[5][2])
+bibi = recursion(1000)
+print(bibi.objet)
 
+'''
 with open('write.csv', 'x', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerow(bibi.objet[0])
     writer.writerow(bibi.objet[1])
     writer.writerow(bibi.objet[2])
     
+    '''
