@@ -1,0 +1,201 @@
+id,type,marque,modele,pays,plaque,pattern
+2,Voiture,Renault,Clio,CHE,GE352078,courses en France
+5,Voiture,Bmw,320,CHE,BE134928,interieur
+9,Voiture,Audi,Q5,CHE,VS128374,interieur
+13,Voiture,Mercedes-Benz,Classe SLK,CHE,VD425709,interieur
+17,Voiture,Bmw,i8,CHE,VD260498,interieur
+20,Voiture,Mercedes-Benz,Classe A,CHE,GE031478,interieur
+21,Voiture,Peugeot,206,CHE,GE895036,interieur
+22,Voiture,Renault,Scenic,CHE,GE810524,ouvreuses
+23,Voiture,Bmw,530,CHE,GE106574,interieur
+24,Voiture,Renault,Mégane,CHE,GE014367,interieur
+29,Voiture,Mercedes-Benz,Classe CLS,CHE,GE087153,ouvreuses
+30,Voiture,Bmw,530,CHE,AI768015,interieur
+31,Voiture,Bmw,i8,CHE,VD734102,interieur
+35,Voiture,Renault,Scenic,CHE,VD913278,ouvreuses
+36,Voiture,Bmw,320,CHE,GE960781,interieur
+37,Voiture,Renault,Scenic,CHE,VD846923,telegram
+40,Voiture,Mercedes-Benz,Classe CLS,CHE,GE876012,telegram
+44,Voiture,Audi,e-tron,CHE,GE564973,courses en France
+46,Voiture,Bmw,i8,CHE,GE791803,interieur
+47,Voiture,Toyota,Corolla,CHE,GE762851,interieur
+49,Voiture,Audi,RS6,CHE,FR512804,sporadiques
+51,Voiture,Peugeot,3008,CHE,GE146570,telegram
+52,Voiture,Bmw,i8,CHE,GE597304,interieur
+53,Voiture,Audi,RS6,CHE,GE729604,courses en France
+55,Voiture,Bmw,530,CHE,GE312708,interieur
+56,Voiture,Renault,Twingo,CHE,GE549706,courses en France
+58,Voiture,Peugeot,405,CHE,GE645729,sporadiques
+59,Voiture,Audi,Q5,CHE,GE203596,interieur
+61,Voiture,Mercedes-Benz,Classe A,CHE,VS407539,interieur
+63,Voiture,Mercedes-Benz,Classe SLK,CHE,GE486790,interieur
+65,Voiture,Toyota,C-HR,CHE,GE809521,interieur
+69,Voiture,Audi,RS6,CHE,VD801529,interieur
+70,Voiture,Bmw,320,CHE,VD461789,interieur
+72,Voiture,Bmw,i8,CHE,VD016357,interieur
+75,Voiture,Bmw,530,CHE,GE602985,interieur
+78,Voiture,Audi,e-tron,CHE,GE493706,courses en France
+86,Voiture,Mercedes-Benz,Classe A,CHE,GE425980,courses en France
+87,Voiture,Audi,Q5,CHE,GE132978,interieur
+91,Voiture,Peugeot,206,CHE,VD392584,ouvreuses
+92,Voiture,Mercedes-Benz,Classe B,CHE,GE517048,interieur
+93,Voiture,Bmw,320,CHE,GE827640,interieur
+95,Voiture,Toyota,Yaris,CHE,GE630148,courses en France
+100,Voiture,Renault,Twingo,CHE,GE609874,courses en France
+102,Voiture,Mercedes-Benz,Classe A,CHE,BE063254,courses en France
+104,Voiture,Peugeot,5008,CHE,VD396180,courses en France
+105,Voiture,Renault,Clio,CHE,GE854160,courses en France
+108,Voiture,Peugeot,3008,CHE,GE405187,sporadiques
+112,Voiture,Renault,Mégane,CHE,GE520479,ouvreuses
+113,Voiture,Renault,Clio,CHE,VD649238,interieur
+117,Voiture,Bmw,X3,CHE,GE857016,courses en France
+118,Voiture,Bmw,i8,CHE,GE465213,courses en France
+119,Voiture,Toyota,Corolla,CHE,FR490356,courses en France
+120,Voiture,Audi,A8,CHE,GE751069,interieur
+122,Voiture,Peugeot,405,CHE,BL765831,ouvreuses
+123,Voiture,Peugeot,405,CHE,GE683204,courses en France
+124,Voiture,Mercedes-Benz,Classe A,CHE,GE214935,interieur
+128,Voiture,Mercedes-Benz,Classe B,CHE,GE923540,sporadiques
+133,Voiture,Toyota,Yaris,CHE,GE038794,interieur
+134,Voiture,Toyota,C-HR,CHE,GE875490,interieur
+135,Voiture,Renault,Scenic,CHE,GE597382,interieur
+137,Voiture,Bmw,320,CHE,GE075198,interieur
+138,Voiture,Audi,A8,CHE,VS908345,courses en France
+141,Voiture,Mercedes-Benz,Classe SLK,CHE,GE258901,interieur
+147,Voiture,Renault,Clio,CHE,VD296145,fisc
+149,Voiture,Renault,Mégane,CHE,VD159670,interieur
+150,Voiture,Renault,Twingo,CHE,VD623510,courses en France
+153,Voiture,Peugeot,405,CHE,VD514602,interieur
+155,Voiture,Toyota,C-HR,CHE,GE796203,téléphonie
+157,Voiture,Bmw,i8,CHE,FR438296,téléphonie
+160,Voiture,Toyota,Celica,CHE,GE623089,interieur
+161,Voiture,Renault,Scenic,CHE,GE387951,interieur
+162,Voiture,Bmw,X3,CHE,GE701386,courses en France
+163,Voiture,Renault,Mégane,CHE,GE380465,fisc
+165,Voiture,Peugeot,3008,CHE,GE871062,interieur
+167,Voiture,Toyota,C-HR,CHE,VD280539,courses en France
+170,Voiture,Toyota,Yaris,CHE,GE835047,sporadiques
+171,Voiture,Peugeot,206,CHE,BL861059,interieur
+179,Voiture,Audi,e-tron,CHE,GE735849,interieur
+181,Voiture,Peugeot,3008,CHE,VS352746,interieur
+183,Voiture,Toyota,Celica,CHE,BL497538,telegram
+185,Voiture,Toyota,Corolla,CHE,GE803164,courses en France
+186,Voiture,Toyota,C-HR,CHE,VS254316,sporadiques
+189,Voiture,Mercedes-Benz,Classe B,CHE,GE760128,courses en France
+190,Voiture,Toyota,Corolla,CHE,GE803942,interieur
+192,Voiture,Toyota,C-HR,CHE,GE273591,interieur
+194,Voiture,Bmw,530,CHE,GE671930,interieur
+195,Voiture,Toyota,Celica,CHE,VS021975,interieur
+198,Voiture,Peugeot,206,CHE,BE986241,sporadiques
+199,Voiture,Mercedes-Benz,Classe A,CHE,BE198346,courses en France
+1,Voiture,Peugeot,405,FRA,ZF483BD,frontalier
+3,Voiture,Toyota,C-HR,FRA,ZC951HN,frontalier
+7,Voiture,Peugeot,206,FRA,XV046XG,frontalier
+12,Voiture,Peugeot,3008,FRA,DN064ZM,sporadique
+18,Voiture,Toyota,C-HR,FRA,ZG798NT,frontalier
+25,Voiture,Mercedes-Benz,Classe A,FRA,DZ308GC,weekend
+27,Voiture,Toyota,Celica,FRA,MZ406MT,frontalier
+34,Voiture,Mercedes-Benz,Classe A,FRA,PY890ZB,ouvreuse
+39,Voiture,Peugeot,5008,FRA,CZ657QP,frontalier
+43,Voiture,Audi,RS6,FRA,QS803DR,frontalier
+45,Voiture,Peugeot,3008,FRA,MS189DK,frontalier
+60,Voiture,Renault,Scenic,FRA,LK549FK,frontalier
+76,Voiture,Mercedes-Benz,Classe CLS,FRA,FN248YJ,frontalier
+82,Voiture,Renault,Mégane,FRA,TM760CD,frontalier
+84,Voiture,Mercedes-Benz,Classe SLK,FRA,VN201KC,téléphonie
+103,Voiture,Renault,Mégane,FRA,YF462FQ,frontalier
+110,Voiture,Bmw,i8,FRA,LT194XG,telegram
+114,Voiture,Renault,Clio,FRA,BL756HS,frontalier
+115,Voiture,Audi,e-tron,FRA,FP271YR,frontalier
+121,Voiture,Audi,RS6,FRA,WF759CT,frontalier
+125,Voiture,Mercedes-Benz,Classe CLS,FRA,XS352KX,telegram
+130,Voiture,Toyota,C-HR,FRA,YQ759TB,frontalier
+143,Voiture,Renault,Clio,FRA,QL915HB,frontalier
+144,Voiture,Mercedes-Benz,Classe SLK,FRA,VY639DM,frontalier
+148,Voiture,Toyota,C-HR,FRA,PS948KP,frontalier
+151,Voiture,Audi,e-tron,FRA,JP150PL,DAB
+158,Voiture,Renault,Scenic,FRA,DN605DL,frontalier
+166,Voiture,Toyota,C-HR,FRA,PT130ZM,frontalier
+169,Voiture,Mercedes-Benz,Classe B,FRA,XF175RQ,frontalier
+172,Voiture,Peugeot,3008,FRA,SJ207MJ,sporadique
+178,Voiture,Renault,Twingo,FRA,PR912JR,weekend
+182,Voiture,Renault,Mégane,FRA,LX283NS,frontalier
+188,Voiture,Peugeot,3008,FRA,QN734HC,frontalier
+193,Voiture,Mercedes-Benz,Classe A,FRA,NW028LG,frontalier
+196,Voiture,Mercedes-Benz,Classe A,FRA,ZJ608ZJ,ouvreuse
+4,Voiture,Audi,Q5,ESP,6170HQR,vacances
+15,Voiture,Audi,e-tron,ESP,8609LGB,vacances
+38,Voiture,Renault,Twingo,ESP,7018XVT,vacances
+48,Voiture,Peugeot,206,ESP,7132QYH,vacances
+57,Voiture,Bmw,X3,ESP,5021BYR,stup
+64,Voiture,Renault,Twingo,ESP,4231XSB,TVA
+67,Voiture,Peugeot,3008,ESP,5693THX,vacances
+81,Voiture,Renault,Twingo,ESP,8293BRZ,vacances
+94,Voiture,Audi,Q5,ESP,6275BSC,vacances
+98,Voiture,Toyota,C-HR,ESP,6902XZS,vacances
+99,Voiture,Toyota,Celica,ESP,9578MRF,vacances
+111,Voiture,Mercedes-Benz,Classe A,ESP,1783PZF,vacances
+126,Voiture,Peugeot,206,ESP,6401GMX,stup
+131,Voiture,Bmw,530,ESP,6980BXD,vacances
+174,Voiture,Renault,Mégane,ESP,6890WSF,TVA
+176,Voiture,Bmw,i8,ESP,1680PCW,TVA
+191,Voiture,Peugeot,405,ESP,3758FGX,TVA
+8,Livraisons,Citroën,Jumper,CHE,AI271658,achatsFranceDouaneKO
+11,Livraisons,Renault,Trafic,CHE,GE172630,achatsFranceDouaneKO
+19,Livraisons,Volkswagen,Transporter,CHE,VD394560,achatsFranceDouaneKO
+26,Livraisons,Opel,Movano,CHE,VS409681,achatsFranceDouaneOK
+28,Livraisons,Renault,Express,CHE,GE604385,achatsFranceDouaneOK
+41,Livraisons,Volkswagen,Caddy,CHE,VS385972,achatsFranceDouaneOK
+42,Livraisons,Opel,Movano,CHE,VD865734,achatsFranceDouaneOK
+80,Livraisons,Citroën,Jumper,CHE,GE589034,frontalierVhcEntreprise
+85,Livraisons,Renault,Express,CHE,VD613042,achatsFranceDouaneOK
+89,Livraisons,Opel,Vivaro,CHE,GE497231,achatsFranceDouaneKO
+101,Livraisons,Volkswagen,Caddy,CHE,BL834561,achatsFranceDouaneOK
+127,Livraisons,Volkswagen,Crafter,CHE,VS486025,achatsFranceDouaneOK
+129,Livraisons,Renault,Kangoo,CHE,GE976840,frontalierVhcEntreprise
+136,Livraisons,Opel,Combo,CHE,GE804619,achatsFranceDouaneKO
+142,Livraisons,Citroën,Berlingo,CHE,VD397562,achatsFranceDouaneOK
+145,Livraisons,Citroën,Jumpy,CHE,GE039176,frontalierVhcEntreprise
+168,Livraisons,Volkswagen,Transporter,CHE,GE319207,frontalierVhcEntreprise
+175,Livraisons,Volkswagen,Transporter,CHE,GE397142,achatsFranceDouaneOK
+177,Livraisons,Citroën,Berlingo,CHE,FR736592,achatsFranceDouaneKO
+187,Livraisons,Volkswagen,Transporter,CHE,GE791034,achatsFranceDouaneOK
+10,Livraisons,Opel,Combo,FRA,QD542MB,Douane OK
+14,Livraisons,Volkswagen,Caddy,FRA,MP087PT,Vol 2 roues
+33,Livraisons,Renault,Kangoo,FRA,LK689XV,Douane OK
+54,Livraisons,Citroën,Berlingo,FRA,XS539GR,Vol 2 roues
+66,Livraisons,Citroën,Jumper,FRA,KM183SQ,Vol 2 roues
+71,Livraisons,Citroën,Jumpy,FRA,GQ024TZ,Douane OK
+77,Livraisons,Renault,Kangoo,FRA,ND723PT,Douane KO
+79,Livraisons,Renault,Trafic,FRA,YJ754LM,Vol 2 roues
+83,Livraisons,Renault,Kangoo,FRA,BK064ZJ,Douane KO
+106,Livraisons,Volkswagen,Transporter,FRA,LX560KB,Douane KO
+152,Livraisons,Opel,Vivaro,FRA,TR856LW,Douane OK
+159,Livraisons,Opel,Vivaro,FRA,LZ240BR,Douane OK
+184,Livraisons,Volkswagen,Caddy,FRA,ZG750ZT,Douane OK
+50,Livraisons,Volkswagen,Crafter,ESP,3251VMG,Douane OK
+62,Livraisons,Opel,Movano,ESP,1478LDV,Douane OK
+74,Livraisons,Volkswagen,Crafter,ESP,2819DJV,Douane KO
+97,Livraisons,Citroën,Jumpy,ESP,0654QGX,Douane OK
+109,Livraisons,Renault,Kangoo,ESP,0834GRV,Douane KO
+180,Livraisons,Renault,Kangoo,ESP,5493NMP,Douane KO
+197,Livraisons,Opel,Combo,ESP,5678VJP,Douane OK
+6,Autobus,Iveco Bus,Crealis,CHE,GE621507,buchard
+88,Autobus,Mercedes-Benz,Citaro C2,CHE,GE106742,buchard
+116,Autobus,Iveco Bus,Urbanway,CHE,GE237849,buchard
+132,Autobus,Mercedes-Benz,Citaro C2,CHE,GE843597,buchard
+139,Autobus,Iveco Bus,Crealis,CHE,FR613045,buchard
+173,Autobus,Mercedes-Benz,Citaro L,CHE,GE894325,buchard
+0,Autobus,Iveco Bus,Crossway,FRA,NQ451ZF,flixbus
+16,Autobus,man,Lion's City Hybrid,FRA,BS547DB,cabotage
+32,Autobus,Mercedes-Benz,Citaro K,FRA,LF160GD,flixbus
+68,Autobus,Iveco Bus,Crossway,FRA,FB283WB,flixbus
+73,Autobus,Heuliez Bus,GX 137,FRA,CX157BL,flixbus
+96,Autobus,Heuliez Bus,GX 337,FRA,SX279YP,flixbus
+107,Autobus,man,Lion's City,FRA,CX183VR,flixbus
+146,Autobus,Iveco Bus,Urbanway,FRA,TZ725QY,flixbus
+154,Autobus,man,Lion's Classic,FRA,XY931CB,cabotage
+156,Autobus,Heuliez Bus,GX 137,FRA,SL142BF,flixbus
+164,Autobus,Iveco Bus,Crossway,FRA,CV925NL,RPLF
+90,Autobus,Iveco Bus,Crossway,ESP,9457DPH,cabotage
+140,Autobus,man,Lion's City,ESP,5978QJC,RPLF
