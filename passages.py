@@ -148,13 +148,18 @@ for vehicle in dictVhc :
                         cumul.append(vehicle['passages'][z])
                 print(cumul)
 '''
-k = 0
-for vehicle in dictVhc :
-        if vehicle['pattern'] == 'interieur':
-                print(vehicle)
-                k += 1
-                
 
+#test descriptif
+def description_data(cle, valeur):
+        k = 0
+        cle = cle
+        valeur = valeur
+        for vehicle in dictVhc :
+                if vehicle[cle] == valeur:
+                        k += 1
+        txt = 'le nombre de {} est de {}'
+        print(txt.format(valeur,k))
 
-print('le nombre de interieur est de : ',k)
-
+description_data('pays','CHE')
+description_data('pays','FRA')
+description_data('pays','ESP')
