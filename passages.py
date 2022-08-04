@@ -163,3 +163,10 @@ def description_data(cle, valeur):
 description_data('pays','CHE')
 description_data('pays','FRA')
 description_data('pays','ESP')
+description_data('pattern','ouvreuse')
+
+
+for vehicle in dictVhc :
+    if vehicle['pattern'] == 'ouvreuse':
+        print(vehicle)
+

@@ -1,8 +1,6 @@
-import datetime
 import random
 import csv
 import os
-import array
 from tkinter import Y
 
 #importation fichier véhicules
@@ -96,7 +94,7 @@ typelength = {'total voitures FRA' : len(carFRA), 'voitures FRA restantes ' : le
 #fonctions pour générer les patterns
 #patterns spécifiques
 
-def random_car(x, action,type):
+def random_car(x, action,type,cible = None):
     i=0
     global y
     y = 0
@@ -136,8 +134,8 @@ for car in carFRA:
 
 
 #car pattern Swiss -> courses en France, fisc, sporadiques, téléphonie, ouvreuse, telegram, intérieur du pays
-random_car(y//12,'fisc', carCHE)
-random_car(6,'ouvreuses', carCHE)
+random_car(y//12,'fisc', carCHE,)
+random_car(6,'ouvreuse', carCHE)
 random_car(4,'telegram', carCHE)
 random_car(2,'téléphonie', carCHE)
 random_car(y//10,'sporadiques', carCHE)
@@ -182,6 +180,8 @@ rest_assign(busESP, 'flixbus')
 for car in busESP:
     print(car)
 
+
+
 listeFinale = carCHE + carFRA + carESP + deliveryCHE + deliveryFRA + deliveryESP + busCHE + busFRA + busESP
 
 car_header = ['id','type','marque', 'modele', 'pays', 'plaque','pattern']
@@ -191,46 +191,3 @@ with open('patterns.csv', 'w', newline='') as csvfile:
     for i in range(len(listeFinale)):
         writer.writerow(listeFinale[i])
     csvfile.close()
-'''
-for i in range(len(carFRA)):
-    youhou = carFRA[i][6].count('DAB')
-    print(youhou)
-
-for i in random.sample(deliveryFRA, k=len(deliveryFRA)//4):
-    i[6]= random.choice(patternLivraisonFrance)
-for i in deliveryFRA:
-    if i[6] != 'wallah':
-        i[6]= 'normal tas vu'
-#random.sample(deliveryFRA, k=len(deliveryFRA)//4)[0][6] = 'wallah'
-#print(random.sample(deliveryFRA, k=len(deliveryFRA)//4))
-
-#tests
-print(len(deliveryFRA))   
-print('Livraisons immatriculées en France : ' + str(deliveryFRA) + '\n')
-print(len(deliveryCHE)) 
-print('Livraisons immatriculées en Suisse : ' + str(deliveryCHE)+ '\n')
-print(len(deliveryESP)) 
-print('Livraisons immatriculées en Espagne : '+ str(deliveryESP) + '\n')
-
-print(' '.join(row))
-print(row[3])
-
-car = [(0, 'Voiture', 'Toyota', 'C-HR', 'FRA', 'NH586YR', 'indetermine'),('631','region VI', 'Perly','Inbound', datetime.datetime(2020, 6, 1 ,8, 22, 35)),('631','region VI', 'Perly','Inbound', datetime.datetime(2020, 6, 1 ,17, 14, 21))]
-cam = ['Mon-idée', 'Pierre à Bochet', 'Moillesulaz','Croix-de-Rozon','Bardonnex', 'Perly', 'Meyrin', 'Mategnin','Ferney']
-print(car)
-print(car[1][4])
-print(car[1][4].strftime('%A'))
-'''
-
-'''
-DAB = random.choice(carFRA)
-print('DAB est :' + str(DAB))
-DAB[6] ='DAB'
-print('DAB est :' + str(DAB))
-
-
-patternVoitureFrance = ['frontaliers', 'weekend', 'sporadiques', 'DAB', 'ouvreuse', 'téléphonie', 'reconnaissance', 'groupe telegram']
-listePatternVoitureFrance = random.choices(patternVoitureFrance, weights=[7,3,2,1,1,1,1,2], k=len(carFRA))
-for i in range(len(carFRA)):
-    carFRA[i][6] = listePatternVoitureFrance[i]
-print(carFRA)'''
