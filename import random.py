@@ -87,7 +87,7 @@ def createVehicle(a):
         vhcItem = (vhc.id,vhc.type,vhc.marque,vhc.model,vhc.country,vhc.plate,vhc.spec)
         listeFinale.append(vhcItem)
 
-createVehicle(200)
+createVehicle(500)
 
 print(len(listeFinale))
 

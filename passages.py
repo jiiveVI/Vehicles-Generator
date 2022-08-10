@@ -1,10 +1,13 @@
 import datetime
 import calendar
+from itertools import count
 from operator import indexOf
 import random
 import csv
 import os
 from tkinter import W
+import matplotlib.pyplot as plt
+import numpy as np
 
 
 #importation fichier patterns
@@ -99,10 +102,10 @@ def sporadique(nbrePassages):
                 i+=1
 
 
-
+'''
 for values in sporadique(20):
         print(values)
-
+'''
 ###############               Véhicules FRA               ###############
 
 #definition de l'horodatage et du sens des passages pour les frontaliers 
@@ -176,6 +179,41 @@ def interieur(aller = 'IN', retour = 'OUT'):
                         x += 1
                         tempsIn = tempsIn + datetime.timedelta(days=1,minutes=random.randrange(-20,20),seconds=random.randrange(-60,60))
 
+#création passages aléatoires pour les véhicules ayant un pattern "intérieur"
+def random_inland():
+
+        #création liste jours aléatoires
+        joursDuMois = []
+        for i in range(random.randrange(1,20)):
+                joursDuMois.append(random.randrange(1,nbreJoursMois+1))
+                joursDuMois.sort()
+
+        #conversion en datetime
+        for i in range(len(joursDuMois)):
+                joursDuMois[i] = datetime.datetime(annee,mois,joursDuMois[i],random.randrange(0,24),random.randrange(0,60),random.randrange(0,60))
+        joursDuMois.sort()
+        def sens():
+                sensAleatoire = random.choice(['IN', 'OUT'])
+                yield sensAleatoire
+                for i in range(len(joursDuMois)):
+                        if sensAleatoire == 'IN':
+                                sensAleatoire = 'OUT'
+                                yield sensAleatoire
+                        else:
+                                sensAleatoire = 'IN'
+                                yield sensAleatoire
+        InOut = sens()
+
+
+
+        newlist=[['Saint Prex',(next(InOut),x)] for x in joursDuMois]
+
+
+        return newlist
+
+                
+        
+
 #attribution de l'horodatage type pendulaire pour les patterns intérieur
 n=0
 for vehicle in dictVhc :
@@ -200,49 +238,21 @@ for vehicle in dictVhc :
                                 vehicle['passages'].append(donnee)
                         #print(vehicle)
                         #print(n)
-                
-
-                        
-
-'''
-                        
-                                z+=1
-                                
-
-
-                        cam = 'Lambda'
-                        for values in interieur('OUT','IN'):
-                                donnee = []
-                                donnee.append(cam)
-                                donnee.append(values)
-                                vehicle['passages'].append(donnee)
-                        z += 1
-                        print(vehicle)    
-                        print('z est :', z)
-                                
+                else:
+                        vehicle['passages'] = random_inland()
                 
                 
 
 
-r=0
-for vehicle in dictVhc :
-    if vehicle['pattern'] == 'interieur'and len(vehicle['passages']) == 0:
-        print('celui ci est compté', vehicle)
-        r+=1
-        print(r)
-print('le nombre de vehicule avec passages non attribués est de ', r)
 
 
 
 
-#affichage de la liste des pasages pour les frontaliers
-for vehicle in dictVhc :
-        cumul = []
-        if vehicle['pattern'] == 'frontalier':
-                
-                for z in range(len(vehicle['passages'])):
-                        cumul.append(vehicle['passages'][z])
-                print(cumul)
+
+
+
+
+
 
 
 #test descriptif
@@ -267,8 +277,19 @@ pattern_data('sporadique')
 pattern_data('ouvreuse')
 pattern_data('interieur')
 
+timage = []
 
-for vehicle in dictVhc :
-        if vehicle['pattern'] == 'frontalier':
-                print(vehicle,'\n')'''
+StPrexIn = 0
+StPrexOut = 0
+for vehicle in dictVhc:
+        if vehicle['passages']!=[]:
+                for passages in vehicle['passages']:
+                        if passages[0] == 'Saint Prex' and passages[1][0] == 'IN':
+                                timage.append(passages[1][1].strftime('%X'))
+                                
                 
+print(StPrexIn)
+print(StPrexOut)
+
+plt.hist(timage)
+plt.show()
