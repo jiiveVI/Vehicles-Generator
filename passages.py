@@ -12,7 +12,7 @@ import itertools
 
 
 #importation fichier patterns
-os.chdir('.\Documents\projetsProg')
+os.chdir('..\\')
 f = open('patterns.csv', 'r')
 spamreader = csv.reader(f, delimiter=',', quotechar='|')
 
@@ -412,8 +412,31 @@ for vehicle in dictVhc:
 ###############                Autobus                    ###############
 #########################################################################
 
-camBus = [['Bardonnex', 'Thônex'],['Saint Prex']]
+
 def flix():
+        camBus = [['Bardonnex', 'Thônex'],['Saint Prex']]
+        passages = []
+        joursDuMois = list(cal.itermonthdates(annee, mois))
+        joursDuMois = [datetime.datetime(day.year,day.month,day.day) for day in joursDuMois if day.month == mois]
+        def passage_flix():
+                p = random.choice(camBus)
+                if len(p) >1:
+                        p = random.choice(p)
+                else:
+                        p = ''.join(p)
+                sensBus = ['IN', 'OUT']
+                t = joursDuMois[0] + datetime.timedelta(hours=8, minutes=25)
+                passages.append([p,(random.choice(sensBus),t)])
+                
+        passages.append(passage_flix()) 
+        return passages
+
+test = flix()
+print(test)
+
+
+
+'''
         passages =[]
         result = []
         t = None
@@ -439,7 +462,7 @@ def flix():
 
 w = flix()
 
-'''
+
 
 for vehicle in dictVhc:
         if vehicle['passages']!=[]:

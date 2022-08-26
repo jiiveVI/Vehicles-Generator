@@ -4,7 +4,7 @@ import os
 from tkinter import Y
 
 #importation fichier véhicules
-os.chdir('.\Documents\projetsProg')
+os.chdir('..\\')
 f = open('voitures.csv', 'r')
 spamreader = csv.reader(f, delimiter=',', quotechar='|')
 

@@ -7,7 +7,7 @@ import matplotlib.cbook as cbook
 import numpy as np
 import pandas as pd
 os.path.realpath(__file__)
-os.chdir('.\Documents\projetsProg')
+os.chdir('..\\')
 
 
 #___items definition
