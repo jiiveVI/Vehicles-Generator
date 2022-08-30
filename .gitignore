@@ -1,0 +1,8 @@
+#ignorer le fichier environnement
+/env
+#ignore le fichier DS_Store
+/.DS_Store
+#ignore le fichier gitignore
+/.gitignore
+#ignore le fichier gecko driver
+/geckodriver.log
